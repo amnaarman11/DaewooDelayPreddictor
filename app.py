@@ -25,7 +25,7 @@ st.markdown("Predict whether your Daewoo trip might face a delay based on route,
 @st.cache_resource
 def load_model():
     try:
-        return joblib.load("model.pkl")
+        return joblib.load("Untitled11.ipynb")
     except Exception as e:
         st.error("❌ Model file not found. Please train your model and save it as `model.pkl`.")
         st.stop()
